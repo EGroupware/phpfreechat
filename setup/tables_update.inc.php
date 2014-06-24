@@ -14,3 +14,9 @@ function phpfreechat_upgrade1_6_001()
 {
 	return $GLOBALS['setup_info']['phpfreechat']['currentver'] = '1.8';
 }
+
+
+function phpfreechat_upgrade1_8()
+{
+	return $GLOBALS['setup_info']['phpfreechat']['currentver'] = '14.1';
+}
