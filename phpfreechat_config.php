@@ -193,7 +193,8 @@ if (substr($GLOBALS['egw_info']['server']['db_type'],0,5)=='mysql')
       container_cfg_mysql_password : password to identify the username that connects to the database. Default value is ””
 */
 	$params['container_type']='mysql';
-	list($params['container_cfg_mysql_host']) = explode(';', $GLOBALS['egw_info']['server']['db_host']);
+	$GLOBALS['egw']->db->connect();
+	$params['container_cfg_mysql_host'] = $GLOBALS['egw']->db->get_host();
 	$params['container_cfg_mysql_port']=$GLOBALS['egw_info']['server']['db_port'];
 	$params['container_cfg_mysql_database']=$GLOBALS['egw_info']['server']['db_name'];
 	$params['container_cfg_mysql_table']='egw_phpfreechat';
