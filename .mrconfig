@@ -1,2 +1,3 @@
 [phpfreechat]
 checkout = svn checkout https://github.com/kerphi/phpfreechat/branches/1.x phpfreechat
+skip = [ $1 = "tag" ]
