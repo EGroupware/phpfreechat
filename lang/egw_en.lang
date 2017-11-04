@@ -4,7 +4,7 @@ are users allowed to change their nicknames in phpfreechat and are allowed to co
 egroupware chat	phpfreechat	en	EGroupware Chat
 frozen nick	admin	en	Frozen nick
 global categories	phpfreechat	en	Global categories
-maximum nickname length (if not set the length of 64 is used. as it is the maximum lenght of usernames within egroupware)	admin	en	maximum nickname length (if not set the length of 64 is used. as it is the maximum lenght of usernames within egroupware)
+maximum nickname length (if not set the length of 64 is used. as it is the maximum lenght of usernames within egroupware)	admin	en	maximum nickname length (if not set the length of 64 is used. as it is the maximum lenght of usernames within EGroupware)
 nick length	admin	en	nick length
 phpfreechat	common	en	Chat
 phpfreechat configuration	admin	en	Chat configuration
